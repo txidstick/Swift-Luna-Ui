@@ -8,7 +8,7 @@ A powerful, feature-rich UI library for Roblox with full mobile support, smooth 
 ### Load the Library
 
 ```lua
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/tb3.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/WeebsMain/txid-ui-library/refs/heads/main/UI.lua"))()
 ```
 
 ### Basic Example
