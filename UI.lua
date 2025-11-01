@@ -1957,9 +1957,9 @@ local Library do
             local Items = { } do
                 local FirstLetterOfName = StringSub(Window.Name, 1, 1)
                 
-                -- Adjust size for mobile - smaller initial size but still functional
-                local WindowWidth = IsMobile and 480 or 798
-                local WindowHeight = IsMobile and 360 or 599
+                -- Adjust size for mobile - keep original size so everything fits nicely
+                local WindowWidth = IsMobile and 600 or 798
+                local WindowHeight = IsMobile and 450 or 599
                 
                 Items["MainFrame"] = Instances:Create("Frame", {
                     Parent = Library.Holder.Instance,
@@ -1973,9 +1973,9 @@ local Library do
                 })  Items["MainFrame"]:AddToTheme({BackgroundColor3 = "Background"})
 
                 Items["MainFrame"]:MakeDraggable()
-                -- Set minimum resize to be smaller for mobile users, but keep it functional
-                local MinWidth = IsMobile and 400 or 600
-                local MinHeight = IsMobile and 300 or 450
+                -- Set minimum resize to match initial window size so everything fits properly
+                local MinWidth = IsMobile and 600 or 798
+                local MinHeight = IsMobile and 450 or 599
                 Items["MainFrame"]:MakeResizeable(Vector2New(MinWidth, MinHeight), Vector2New(9999, 9999))
                 
                 Instances:Create("UICorner", {
