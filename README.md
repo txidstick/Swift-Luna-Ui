@@ -724,7 +724,7 @@ Library:Notification("Script loaded successfully!", 5, "94627324690861")
 
 ## 📝 Credits
 
-**Made by txid**
+**Made by KM**
 
 This is a mobile-optimized UI library for Roblox with full touch support and responsive design.
 
@@ -732,7 +732,7 @@ This is a mobile-optimized UI library for Roblox with full touch support and res
 
 ## 📜 License
 
-Free to use for personal and commercial projects. Please credit txid if you use this library.
+Free to use for personal and commercial projects. Please credit KM if you use this library.
 
 ---
 
